@@ -8,9 +8,9 @@ namespace ProductOrderingSystem
         static void Main(string[] args)
         {
             // Create some products
-            Product product1 = new Product("Product1", "P001", 2.99m, 10);
-            Product product2 = new Product("Product2", "P002", 4.99m, 5);
-            Product product3 = new Product("Product3", "P003", 1.99m, 20);
+            Product product1 = new Product("When Harry Met Sally - DVD", "DVD00134812-ENU", 12.99m, 1);
+            Product product2 = new Product("Organic Celery", "F12930-123-1445", 4.99m, 5);
+            Product product3 = new Product("Levi's 501 32x36 Relaxed Fit", "C1291-11-501P99", 71.99m, 2);
 
             // Create a customer
             Address address = new Address("123 Main St", "Bluffdale", "UT", "USA");

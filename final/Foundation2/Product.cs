@@ -4,37 +4,18 @@ namespace ProductOrderingSystem
 {
     public class Product
     {
-        private string name;
-        private string id;
-        private decimal price;
-        private int quantity;
+        public string Name { get; set; }
+        public string Id { get; set; }
+        public decimal Price { get; set; }
+        public int Quantity { get; set; }
 
         public Product(string name, string id, decimal price, int quantity)
         {
-            this.name = name;
-            this.id = id;
-            this.price = price;
-            this.quantity = quantity;
+            Name = name;
+            Id = id;
+            Price = price;
+            Quantity = quantity;
         }
 
-        public string Name
-        {
-            get { return name; }
-        }
-
-        public string ID
-        {
-            get { return id; }
-        }
-
-        public decimal Price
-        {
-            get { return price; }
-        }
-
-        public int Quantity
-        {
-            get { return quantity; }
-        }
     }
 }

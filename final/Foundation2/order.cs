@@ -46,7 +46,7 @@ namespace ProductOrderingSystem
             foreach (Product product in products)
             {
                 label += "Product Name: " + product.Name + "\n" +
-                         "Product ID: " + product.ID + "\n\n";
+                         "Product ID: " + product.Id + "\n\n";
             }
 
             return label;
