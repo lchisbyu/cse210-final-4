@@ -2,8 +2,8 @@ namespace YouTubeMonitoring
 {
     public class Comment
     {
-        public string Name { get; set; }
-        public string Text { get; set; }
+        public string Name { get; }
+        public string Text { get; }
 
         public Comment(string name, string text)
         {

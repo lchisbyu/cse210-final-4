@@ -6,9 +6,9 @@ namespace YouTubeMonitoring
     public class Video
     {
         // Properties to store video title, author, and length (in seconds)
-        public string Title { get; set; }
-        public string Author { get; set; }
-        public int Length { get; set; }
+        public string Title { get; }
+        public string Author { get; }
+        public int Length { get; }
 
 
         public Video(string title, string author, int length)
